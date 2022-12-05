@@ -20,7 +20,6 @@
 - athena-generator : 自动代码生成等模块
 - business-common-service : 业务通用服务模块组模块
 
-
 #### Git Commit Message格式说明一般包括三部分：Header、Body和Footer
 
 message信息格式采用目前主流的Angular规范，是目前使用最广的写法，比较合理和系统化，并且有配套的工具 在IDEA 可安装Git Commit Message插件 自动生成规范提交信息
@@ -59,6 +58,7 @@ type: 用于说明commit的类别，规定为如下几种
 feat(app): 用户登录功能
 
 #### IDEA工具内File->Settings->File and Code Templates->Includes标签->File Header 添加如下注释信息，之后创建类会自动生成注释信息
+
 /**
 * @author 潘维吉
 * @date ${DATE} ${TIME}

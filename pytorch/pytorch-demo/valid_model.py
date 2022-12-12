@@ -41,4 +41,4 @@ for name in names:
         output = model(image)
     print(output)  # 输出预测结果
     print(int(output.argmax(1)))
-    # print("第{}张图片预测为：{}".format(i, data_class[int(output.argmax(1))]))  # 对结果进行处理，使直接显示出预测的植物种类
+    # print("第{}张图片预测为：{}".format(i, data_class[int(output.argmax(1))]))  # 对结果进行处理，使直接显示出预测的种类

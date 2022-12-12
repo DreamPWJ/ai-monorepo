@@ -50,7 +50,7 @@ model_ft = models.resnet18(pretrained=True)  # 使用迁移学习，加载预训
 
 in_features = model_ft.fc.in_features
 model_ft.fc = nn.Sequential(nn.Linear(in_features, 36),
-                            nn.Linear(36, 6))  # 将最后的全连接改为（36，6），使输出为六个小数，对应六种植物的置信度
+                            nn.Linear(36, 6))  # 将最后的全连接改为（36，6），使输出为六个小数，对应的置信度
 
 torch.save(model_ft, "best_model_panweiji.pth")  # 训练好的模型权重文件
 

@@ -52,7 +52,7 @@ in_features = model_ft.fc.in_features
 model_ft.fc = nn.Sequential(nn.Linear(in_features, 36),
                             nn.Linear(36, 6))  # 将最后的全连接改为（36，6），使输出为六个小数，对应六种植物的置信度
 
-torch.save(model_ft, "best_model_panweiji.pth")
+torch.save(model_ft, "best_model_panweiji.pth")  # 训练好的模型权重文件
 
 # 冻结卷积层函数
 # for i,para in enumerate(model_ft.parameters()):

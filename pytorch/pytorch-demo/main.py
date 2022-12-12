@@ -11,6 +11,7 @@ from torchvision.datasets import ImageFolder
   @date 2022/12/05 13:22
   @email 406798106@qq.com
   @description PyTorch机器学习
+  參考文章: https://blog.csdn.net/m0_60681041/article/details/122890003
 """
 
 print("PyTorch Version: ", torch.__version__)

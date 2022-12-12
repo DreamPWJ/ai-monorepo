@@ -9,3 +9,4 @@
 - 管理员身份运行: conda install -y pytorch torchvision torchaudio cpuonly -c pytorch
 - conda --version
 - conda list | findstr torch
+- 注意: PyCharm内设置Anaconda目录下python.exe作为拦截器才能找到torch模块

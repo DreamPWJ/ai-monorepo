@@ -16,6 +16,11 @@
 - C++
 - Java
 
+#### 数据标注工具
+
+- [LabelMe](https://github.com/wkentaro/labelme)
+- [LabelImg ](https://github.com/heartexlabs/labelImg)
+
 #### 模块目录结构
 
 - athena-common: 公共通用模块 (与业务无关，大部分模块项目依赖需要)

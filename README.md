@@ -4,17 +4,22 @@
 
 - 项目代号: athena(雅典娜 智慧女神) 愿景: 使项目更易于复用迭代维护扩展、分离关注点并避免代码重复
 
-#### 机器学习ML框架
+### 机器学习ML框架
 
 - PyTorch
 - TensorFlow
 - JAX
 
-#### 机器学习ML语言
+### 机器学习ML语言
 
 - Python
 - C++
 - Java
+
+### 开发工具
+
+- PyCharm
+- VSCode
 
 #### 数据标注工具
 

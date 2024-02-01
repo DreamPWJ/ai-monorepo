@@ -21,6 +21,10 @@
 - PyCharm
 - VSCode
 
+#### 成熟的预训练模型
+
+- https://github.com/ultralytics/ultralytics
+
 #### 数据标注工具
 
 - [LabelMe](https://github.com/wkentaro/labelme)

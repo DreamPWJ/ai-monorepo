@@ -6,6 +6,7 @@ from ultralytics import YOLO
   @email 406798106@qq.com
   @description PyTorch机器学习YOLO目标检测
   參考文章: https://docs.ultralytics.com/usage/python/
+  https://juejin.cn/post/7265968581841682492
 """
 
 # Load a model  执行python运行 自动下载预训练模型和配置
@@ -18,6 +19,8 @@ model = YOLO("yolov8n.pt")  # load a pretrained model (recommended for training)
 
 # 运行预测 支持URL直接访问
 results = model(["images/cat.jpg"])  # predict on an image
+
+#print(results[0].boxes)
 
 # Process results list
 for result in results:

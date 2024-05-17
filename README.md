@@ -6,9 +6,11 @@
 
 ### 机器学习ML框架
 
+- LLM
 - PyTorch
 - TensorFlow
 - JAX
+- ONNX
 
 ### 机器学习ML语言
 

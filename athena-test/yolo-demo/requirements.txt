@@ -1,0 +1,6 @@
+# Flask Framework
+opencv-python-headless
+transformers
+torch
+torchvision
+ultralytics

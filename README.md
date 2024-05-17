@@ -6,11 +6,14 @@
 
 ### 机器学习ML框架
 
-- LLM
+- LLM大语言模型
 - PyTorch
 - TensorFlow
 - JAX
 - ONNX
+- Hugging Face
+- Transformers ( pip install transformers )
+- YOLO [Github](https://github.com/ultralytics/ultralytics)
 
 ### 机器学习ML语言
 

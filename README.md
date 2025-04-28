@@ -32,8 +32,8 @@
 
 #### 数据标注工具
 
+- [Label Studio](https://github.com/HumanSignal/label-studio)
 - [LabelMe](https://github.com/wkentaro/labelme)
-- [LabelImg ](https://github.com/heartexlabs/labelImg)
 
 #### 模块目录结构
 
